@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		AB7489F42A3653A70025531B /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7489F32A3653A70025531B /* PostViewController.swift */; };
+		AB7489F62A365A250025531B /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7489F52A365A250025531B /* InfoViewController.swift */; };
 		ABFC64852A34B04700ED684E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABFC64842A34B04700ED684E /* AppDelegate.swift */; };
 		ABFC64872A34B04700ED684E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABFC64862A34B04700ED684E /* SceneDelegate.swift */; };
 		ABFC648E2A34B04800ED684E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABFC648D2A34B04800ED684E /* Assets.xcassets */; };
@@ -18,6 +19,7 @@
 
 /* Begin PBXFileReference section */
 		AB7489F32A3653A70025531B /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
+		AB7489F52A365A250025531B /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
 		ABFC64812A34B04700ED684E /* Navigation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Navigation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABFC64842A34B04700ED684E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ABFC64862A34B04700ED684E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 				ABFC649A2A34BA6500ED684E /* ProfileViewController.swift */,
 				ABFC64982A34BA4400ED684E /* FeedViewController.swift */,
 				AB7489F32A3653A70025531B /* PostViewController.swift */,
+				AB7489F52A365A250025531B /* InfoViewController.swift */,
 				ABFC648D2A34B04800ED684E /* Assets.xcassets */,
 				ABFC648F2A34B04800ED684E /* LaunchScreen.storyboard */,
 				ABFC64922A34B04800ED684E /* Info.plist */,
@@ -144,6 +147,7 @@
 				ABFC64992A34BA4400ED684E /* FeedViewController.swift in Sources */,
 				ABFC649B2A34BA6500ED684E /* ProfileViewController.swift in Sources */,
 				ABFC64872A34B04700ED684E /* SceneDelegate.swift in Sources */,
+				AB7489F62A365A250025531B /* InfoViewController.swift in Sources */,
 				AB7489F42A3653A70025531B /* PostViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

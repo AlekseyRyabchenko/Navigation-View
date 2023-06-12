@@ -9,23 +9,18 @@ import UIKit
 
 class PostViewController: UIViewController {
 
-    var message: String?
+//    var message: String?
     
-    let imageView: UIImageView = {
-        let imageView = UIImageView(frame: CGRect(x: 0, y: 0, width: 150, height: 140))
-        imageView.contentMode = .scaleToFill
-        
-        return imageView
-    }()
+    let imageView = Post().imageView
     
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .systemGray
-        title = message
+        title = Post().title
         
         view.addSubview(imageView)
         imageView.center = view.center
-        imageView.image = UIImage(systemName: "signpost.right.and.left")
+        imageView.image = UIImage(systemName: "text.bubble")
         imageView.tintColor = .blue
         
         self.navigationItem.rightBarButtonItem = UIBarButtonItem(image: UIImage(systemName: "info.square"), style: .done, target: self, action: #selector(showInfo))

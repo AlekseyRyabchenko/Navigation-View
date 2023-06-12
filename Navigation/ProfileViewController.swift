@@ -10,7 +10,7 @@ import UIKit
 class ProfileViewController: UIViewController {
     
     let imageView: UIImageView = {
-        let imageView = UIImageView(frame: CGRect(x: 0, y: 0, width: 150, height: 140))
+        let imageView = UIImageView(frame: CGRect(x: 0, y: 0, width: 200, height: 180))
         imageView.contentMode = .scaleToFill
         
         return imageView

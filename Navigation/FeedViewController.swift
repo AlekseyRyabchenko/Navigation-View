@@ -28,23 +28,23 @@ class FeedViewController: UIViewController {
         imageView.image = UIImage(systemName: "list.clipboard.fill")
         imageView.tintColor = .blue
         
-        let button = UIButton(type: .system)
+        let button = Post().button
         button.setTitle("Post", for: .normal)
         button.frame = CGRect(origin: CGPoint(x: 120, y: 300), size: CGSize(width: 150, height: 30))
         button.backgroundColor = .red
         view.addSubview(button)
         button.addTarget(self, action: #selector(showPost), for: .touchUpInside)
         
-        textField = UITextField()
-        textField?.frame = CGRect(origin: CGPoint(x: 45, y: 200), size: CGSize(width: 300, height: 30))
-        textField?.backgroundColor = .gray
-        view.addSubview(textField!)
+//        textField = UITextField()
+//        textField?.frame = CGRect(origin: CGPoint(x: 45, y: 200), size: CGSize(width: 300, height: 30))
+//        textField?.backgroundColor = .gray
+//        view.addSubview(textField!)
         
     }
     
     @objc func showPost(){
         let postViewController = PostViewController()
-        postViewController.message = textField?.text
+//        postViewController.message = textField?.text
         navigationController?.pushViewController(postViewController, animated: true)
     }
 }

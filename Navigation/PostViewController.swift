@@ -9,19 +9,12 @@ import UIKit
 
 class PostViewController: UIViewController {
 
-//    var message: String?
-    
-    let imageView = Post().imageView
+    var postTitle: String?
     
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .systemGray
-        title = Post().title
-        
-        view.addSubview(imageView)
-        imageView.center = view.center
-        imageView.image = UIImage(systemName: "text.bubble")
-        imageView.tintColor = .blue
+        title = postTitle
         
         self.navigationItem.rightBarButtonItem = UIBarButtonItem(image: UIImage(systemName: "info.square"), style: .done, target: self, action: #selector(showInfo))
         

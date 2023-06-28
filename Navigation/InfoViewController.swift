@@ -9,22 +9,10 @@ import UIKit
 
 class InfoViewController: UIViewController {
     
-    let imageView: UIImageView = {
-        let imageView = UIImageView(frame: CGRect(x: 0, y: 0, width: 150, height: 140))
-        imageView.contentMode = .scaleToFill
-        
-        return imageView
-    }()
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .white
         title = "Info"
-        
-        view.addSubview(imageView)
-        imageView.center = view.center
-        imageView.image = UIImage(systemName: "info.square.fill")
-        imageView.tintColor = .blue
         
         let button = UIButton(type: .system)
         button.setTitle("Alert", for: .normal)
